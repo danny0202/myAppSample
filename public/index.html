@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" ng-app="myApp">
+<head>
+    <title>Node app</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="javascripts/angular.min.js"></script>
+    <script src="javascripts/angular-route.min.js"></script>
+</head>
+<body>
+    <div ng-controller="HomeController">
+        <h3>Button hits: {{ hits }}</h3>
+        <button ng-click="registerHit()">
+            HIT ME, if you dare
+        </button>
+        trying git
+    </div>
+    <script src="services/HitService.js"></script>
+    <script src="javascripts/app.js"></script>
+</body>
+</html>
